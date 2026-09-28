@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zacharoodjo — Vidéaste Professionnel</title>
+  <meta name="description" content="Portfolio de Zacharoodjo, vidéaste professionnel. Films, clips, publicités et montages cinéma." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#accueil" class="logo-link">
+        <!-- 
+          ══════════════════════════════════════
+          AJOUTE TON LOGO ICI
+          ══════════════════════════════════════
+          1. Place ton fichier logo (logo.png ou logo.svg) dans ce dossier
+          2. Décommente la ligne <img> ci-dessous
+          3. Supprime ou commente le <span class="logo-text">
+        -->
+        <!-- <img src="logo.png" alt="Zacharoodjo" class="logo-img" /> -->
+        <span class="logo-text">Zacharoodjo</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#accueil" class="nav-link">Accueil</a>
+        <a href="#apropos" class="nav-link">À propos</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="accueil">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-label">Vidéaste Professionnel</p>
+      <h1 class="hero-title">Zacharoodjo</h1>
+      <p class="hero-subtitle">
+        <!-- TEXTE MODIFIABLE : Change cette phrase selon ton style -->
+        Images fortes. Montages précis. Histoires qui restent.
+      </p>
+      <a href="#portfolio" class="btn btn-primary">Voir mon travail</a>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ========== À PROPOS ========== -->
+  <section class="section about" id="apropos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Qui je suis</span>
+        <h2 class="section-title">À propos</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <!-- 
+            ══════════════════════════════════════
+            TEXTE MODIFIABLE — Remplace par ton vrai texte
+            ══════════════════════════════════════
+          -->
+          <p>
+            Passionné par l’image depuis toujours, je transforme des moments ordinaires 
+            en récits visuels marquants. Que ce soit un clip musical, une publicité, 
+            un court-métrage ou un film d’entreprise, mon approche reste la même : 
+            raconter avec précision, émotion et un regard cinématographique.
+          </p>
+          <p>
+            Chaque projet est pensé comme un film. De la direction artistique au montage final, 
+            je travaille avec une exigence de qualité et une sensibilité particulière pour la lumière, 
+            le rythme et le détail.
+          </p>
+          <p>
+            Basé en Afrique, je collabore avec des artistes, des marques et des institutions 
+            qui cherchent une signature visuelle forte et authentique.
+          </p>
+        </div>
+
+        <div class="about-stats">
+          <!-- Tu peux modifier ces chiffres -->
+          <div class="stat">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Projets réalisés</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">8</span>
+            <span class="stat-label">Années d’expérience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Passion</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO ========== -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Sélection de travaux</span>
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-desc">
+          <!-- TEXTE MODIFIABLE -->
+          Quelques projets récents. Clique sur une vidéo pour la regarder.
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <!-- ========== PROJET 1 (EXEMPLE — À SUPPRIMER OU MODIFIER) ========== -->
+        <article class="project-card">
+          <div class="project-video">
+            <!-- 
+              Remplace l'ID YouTube (dQw4w9WgXcQ) par le tien.
+              Format : https://www.youtube.com/embed/TON_ID_YOUTUBE
+            -->
+            <iframe 
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+              title="Clip Musical — Exemple"
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Clip Musical</span>
+            <h3 class="project-title">Nuit Électrique — Artiste X</h3>
+            <p class="project-desc">
+              <!-- TEXTE MODIFIABLE -->
+              Direction artistique, captation et montage. Ambiance nocturne et rythmes urbains.
+            </p>
+          </div>
+        </article>
+
+        <!-- ========== PROJET 2 (EXEMPLE — À SUPPRIMER OU MODIFIER) ========== -->
+        <article class="project-card">
+          <div class="project-video">
+            <iframe 
+              src="https://www.youtube.com/embed/ScMzIvxBSi4" 
+              title="Publicité — Exemple"
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Publicité</span>
+            <h3 class="project-title">Campagne — Marque Y</h3>
+            <p class="project-desc">
+              Film publicitaire 30s. Concept, réalisation et post-production.
+            </p>
+          </div>
+        </article>
+
+        <!-- ========== PROJET 3 (EXEMPLE — À SUPPRIMER OU MODIFIER) ========== -->
+        <article class="project-card">
+          <div class="project-video">
+            <iframe 
+              src="https://www.youtube.com/embed/jNQXAC9IVRw" 
+              title="Court-métrage — Exemple"
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Court-métrage</span>
+            <h3 class="project-title">Ombres & Lumière</h3>
+            <p class="project-desc">
+              Fiction 12 minutes. Réalisation, montage et étalonnage cinéma.
+            </p>
+          </div>
+        </article>
+
+        <!-- ========== PROJET 4 (EXEMPLE — À SUPPRIMER OU MODIFIER) ========== -->
+        <article class="project-card">
+          <div class="project-video">
+            <iframe 
+              src="https://www.youtube.com/embed/9bZkp7q19f0" 
+              title="Film Institutionnel — Exemple"
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Institutionnel</span>
+            <h3 class="project-title">Portrait d’entreprise</h3>
+            <p class="project-desc">
+              Film corporate 3 minutes. Interviews, images aériennes et storytelling.
+            </p>
+          </div>
+        </article>
+
+        <!-- ========== PROJET 5 (EXEMPLE — À SUPPRIMER OU MODIFIER) ========== -->
+        <article class="project-card">
+          <div class="project-video">
+            <iframe 
+              src="https://www.youtube.com/embed/kJQP7kiw5Fk" 
+              title="Événement — Exemple"
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Événementiel</span>
+            <h3 class="project-title">Soirée de lancement</h3>
+            <p class="project-desc">
+              Captation multi-caméras + aftermovie dynamique.
+            </p>
+          </div>
+        </article>
+
+        <!-- ========== PROJET 6 (EXEMPLE — À SUPPRIMER OU MODIFIER) ========== -->
+        <article class="project-card">
+          <div class="project-video">
+            <iframe 
+              src="https://www.youtube.com/embed/fJ9rUzIMcZQ" 
+              title="Clip Artistique — Exemple"
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Artistique</span>
+            <h3 class="project-title">Expérimental — Bleu Glacier</h3>
+            <p class="project-desc">
+              Projet personnel. Exploration de la lumière froide et des textures.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Travaillons ensemble</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+
+      <div class="contact-content">
+        <p class="contact-intro">
+          <!-- TEXTE MODIFIABLE -->
+          Un projet en tête ? Une collaboration ? Écris-moi, je réponds rapidement.
+        </p>
+
+        <div class="contact-details">
+          <!-- 
+            ══════════════════════════════════════
+            MODIFIE TES COORDONNÉES ICI
+            ══════════════════════════════════════
+          -->
+          <a href="mailto:contact@zacharoodjo.com" class="contact-item">
+            <span class="contact-icon">✉</span>
+            <span>contact@zacharoodjo.com</span>
+          </a>
+          <a href="https://wa.me/243000000000" class="contact-item" target="_blank" rel="noopener">
+            <span class="contact-icon">💬</span>
+            <span>WhatsApp</span>
+          </a>
+          <a href="https://instagram.com/zacharoodjo" class="contact-item" target="_blank" rel="noopener">
+            <span class="contact-icon">◎</span>
+            <span>@zacharoodjo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Zacharoodjo. Tous droits réservés.</p>
+      <p class="footer-note">Site conçu pour être facilement modifiable.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
