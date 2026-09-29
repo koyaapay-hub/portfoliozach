@@ -524,10 +524,12 @@ ul { list-style: none; }
 .footer-inner {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
   font-size: 0.85rem;
   color: var(--text-dim);
+  text-align: center;
 }
 
 .footer-note {
