@@ -524,7 +524,6 @@ ul { list-style: none; }
 .footer-inner {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   gap: 1rem;
   font-size: 0.85rem;
