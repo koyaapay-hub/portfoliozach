@@ -100,11 +100,17 @@ ul { list-style: none; }
   gap: 0.75rem;
 }
 
-/* Logo image (quand tu l’ajoutes) */
+/* Logo image — version claire (ice) pour fond sombre */
 .logo-img {
-  height: 42px;
+  height: 48px;
   width: auto;
   object-fit: contain;
+  transition: opacity var(--transition), filter var(--transition);
+}
+
+.logo-link:hover .logo-img {
+  opacity: 0.85;
+  filter: brightness(1.15);
 }
 
 /* Texte logo (à remplacer par ton logo) */

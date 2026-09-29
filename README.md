@@ -4,15 +4,11 @@ Site portfolio sombre cinématographique, 100 % éditable.
 
 ## Comment modifier
 
-### 1. Ajouter ton logo
-1. Place ton fichier `logo.png` ou `logo.svg` dans ce dossier.
-2. Ouvre `index.html`.
-3. Trouve la section HEADER (vers le haut).
-4. Décommente la ligne :
-   ```html
-   <img src="logo.png" alt="Zacharoodjo" class="logo-img" />
-   ```
-5. Supprime ou commente la ligne `<span class="logo-text">Zacharoodjo</span>`.
+### 1. Logo
+Le logo est déjà intégré (`logo.png`) dans une version **claire / ice blue** adaptée au fond sombre du site.
+Si tu veux utiliser une autre version :
+1. Remplace simplement le fichier `logo.png` dans ce dossier.
+2. Ou bascule vers le texte en commentant l’`<img>` et en décommentant le `<span class="logo-text">` dans `index.html`.
 
 ### 2. Changer les textes
 Tous les textes importants sont marqués avec des commentaires `<!-- TEXTE MODIFIABLE -->`.
