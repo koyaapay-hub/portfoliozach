@@ -15,6 +15,23 @@ window.addEventListener('scroll', () => {
   }
 });
 
+// Création du surveillant (Observer)
+const surveillant = new IntersectionObserver((elements) => {
+    elements.forEach(element => {
+        // Si l'élément est visible à l'écran
+        if (element.isIntersecting) {
+            element.target.classList.add('visible'); // On lui ajoute la classe visible
+        }
+    });
+}, {
+    threshold: 0.15 // L'élément s'active quand 15% de sa surface est visible
+});
+
+// On dit au surveillant de surveiller toutes vos sections ou blocs de contenu
+document.querySelectorAll('.anime-au-scroll').forEach(bloc => {
+    surveillant.observe(bloc);
+});
+
 // Menu mobile
 const menuToggle = document.getElementById('menu-toggle');
 const nav = document.getElementById('nav');
