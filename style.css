@@ -380,6 +380,7 @@ ul { list-style: none; }
   border-radius: var(--radius);
   padding: 1.3rem 1.6rem;
   transition: var(--transition);
+  text-align: center;   /* ← ajoute cette ligne */
 }
 
 .stat:hover {
