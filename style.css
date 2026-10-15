@@ -495,12 +495,12 @@ ul { list-style: none; }
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 0.7rem;
-  padding: 0.9rem 1.6rem;
+  gap: 0.5rem;
+  padding: 0.6rem 1.0rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 50px;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
   transition: var(--transition);
 }
