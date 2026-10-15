@@ -496,7 +496,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.6rem 1.0rem;
+  padding: 0.4rem 1.0rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 50px;
