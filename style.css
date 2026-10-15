@@ -371,14 +371,14 @@ ul { list-style: none; }
 .about-stats {
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 1.6rem;
 }
 
 .stat {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.5rem 1.8rem;
+  padding: 1.3rem 1.6rem;
   transition: var(--transition);
 }
 
@@ -390,14 +390,14 @@ ul { list-style: none; }
 .stat-number {
   display: block;
   font-family: 'Cinzel', serif;
-  font-size: 2.2rem;
+  font-size: 2.0rem;
   font-weight: 500;
   color: var(--ice);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.1rem;
 }
 
 .stat-label {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: var(--text-dim);
   letter-spacing: 0.04em;
 }
