@@ -554,6 +554,26 @@ ul { list-style: none; }
   50% { opacity: 1; transform: scaleY(1.1); }
 }
 
+/* Apparition au scroll : glisse depuis la gauche */
+.anime-au-scroll {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.anime-au-scroll.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Cascade légère sur les cartes portfolio */
+.project-card.anime-au-scroll:nth-child(2) { transition-delay: 0.1s; }
+.project-card.anime-au-scroll:nth-child(3) { transition-delay: 0.15s; }
+.project-card.anime-au-scroll:nth-child(4) { transition-delay: 0.2s; }
+.project-card.anime-au-scroll:nth-child(5) { transition-delay: 0.25s; }
+.project-card.anime-au-scroll:nth-child(6) { transition-delay: 0.3s; }
+
 /* ========== RESPONSIVE ========== */
 @media (max-width: 900px) {
   .about-grid {
