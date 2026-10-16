@@ -100,7 +100,6 @@ ul { list-style: none; }
   gap: 0.75rem;
 }
 
-/* Logo image — version claire (ice) pour fond sombre */
 .logo-img {
   height: 48px;
   width: auto;
@@ -182,7 +181,7 @@ ul { list-style: none; }
 /* ========== HERO ========== */
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -496,7 +495,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.4rem 1.0rem;
+  padding: 0.3rem 1.0rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 50px;
@@ -643,8 +642,18 @@ ul { list-style: none; }
   .contact-details {
     flex-direction: column;
     align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.9rem;
+    max-width: 340px;
+    margin: 0 auto;
+    justify-items: center;
   }
 
+  .contact-details .contact-item:last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
   .footer-inner {
     flex-direction: column;
     text-align: center;
